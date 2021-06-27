@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta type="description" content="ТеКсТ ТеКсТ ТеКсТ ТеКсТ ТеКсТ ТеКсТ ТеКсТ ТеКсТ ТеКсТ ТеКсТ ТеКсТ " />
+    <meta type="author" content="Я">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: rgb(163, 163, 255);">
+        <nav>
+            <div class="header-logo">Лого</div>
+            <div class="header-menu">
+                <ul class="header-ul-menu">
+                    <li><a href="#myInfo-container">Обо мне</a></li>
+                    <li><a href="#whtICan-container">Услуги</a></li>
+                    <li><a href="#cases-container">Кейсы</a></li>
+                    <li><a href="#calc-container">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="title--container">
+            <div class="big-hello-phrase">
+                <h1>Привет<br>Привет!</h1>
+                <h4>Я начинающий разработчик :)</h4>
+                <button name="myInfo-button">Обо мне</button>
+                <button name="myWorks">Мои работы</button>
+            </div></div><br>
+            
+
+            <div class="myInfo-container" name="myInfo-container">
+                <div class="info-title">Обо мне</div><br>
+                <div class="img-container"><img src="#" alt="Здесь могла быть ваша рожа" /></div>
+                <div class="myInfo-descr">Здесь чудесный текст описания</div>
+            </div><br>
+
+            <div class="whatICan-container" name="whtICan-container">
+                <div class="whatICan-title">Что я умею</div>
+                <div>option 1</div>
+                <div>option 2</div>
+                <div>option 3</div>
+            </div><br>
+
+            <div class="cases-div" name="cases-div">
+                <div class="cases-title">Кейсы</div>
+                <div class="short-cases-descr">Какое-то описание</div>
+                <div class="slider">
+                    тут должен быть слайдер
+                </div>
+            </div><br>
+
+            <div class="calc-container" name="calc-container">
+                <form action="calc_obr.php" method="POST">
+                    <div class="inCalc-text">Тип сайта</div>
+                    <div class="selectSiteType defaultSelect">
+                        <select>
+                            <option name="shop">Магазин</option>
+                            <option name="showroom">Витрина</option>
+                            <option name="blog">Блог</option>
+                            <option name="visitka">Визитка</option>
+                        </select>
+                    </div><br>
+
+                    <div class="inCalc-text">Дизайн</div>
+                    <div class="selectDesignType defaultSelect">
+                        <select>
+                            <option name="beautiful">Красивый</option>
+                            <option name="ugly">Уродливый</option>
+                        </select>
+                    </div><br>
+
+                    <div class="inCalc-text">Адаптивность</div>
+                    <div class="selectAdapt defaultSelect">
+                        <select>
+                            <option name="mobile">Мобилки</option>
+                            <option name="pc">ПК</option>
+                            <option name="both">Все вместе</option>
+                        </select>
+                    </div><br>
+                    <div class="calc-submit-button">
+                        <input type="submit" value="Рассчитать"/>
+                    </div>
+                </form>
+            </div><br>
+
+            <div class="statistics-container">
+                <div class="statistics-text">Немного статистики</div>
+                <div>
+                    <ul>
+                        <li><div><img src="#" alt="aaaaa"></div></li>
+                        <li><div><img src="#" alt="aaaaa"></div></li>
+                        <li><div><img src="#" alt="aaaaa"></div></li>
+                        <li><div><img src="#" alt="aaaaa"></div></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="feedback-container" name="feedback-container">
+                <div class="feedback-text">Отзывы</div>
+            </div>
+    </div>
+
+    <footer style="background-color:rgb(163, 163, 255);">
+        <div class="myContacs-conatiner">
+            <div class="myContacs-text">Мои контакты</div>
+            <ul>
+                <li><div>Adress</div></li>
+                <li><div>mail</div></li>
+                <li><div>phone</div></li>
+            </ul>
+        </div><br>
+
+        <div class="messageBite-container">
+            <div class="messageBite-text">Оставьте мне сообщение</div>
+            <div class="messageBite-table-form">
+                <form action="#">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="Name" required>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Email" required>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="message-textarea">
+                        <textarea placeholder="Message here" name="message" required></textarea>
+                    </div>
+                    <div class="submit-message">
+                        <input type="submit" value="отправить" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
